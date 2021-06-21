@@ -60,9 +60,23 @@ a:active {
 
 nav ul {
   margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+nav ul a {
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 
+nav li {
+  margin-left: 2%;
+}
 
 /* --- Conteúdo principal da página --- */
 main {
