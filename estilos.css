@@ -143,6 +143,18 @@ main {
   display: inline-block;
 }
 
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  color: #333;
+  font-weight: bold;
+  background: orange;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+}
+
 /* --- Principal >> Nuvem de tags --- */
 
 aside {
