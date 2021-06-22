@@ -101,10 +101,24 @@ main {
   margin-left: 2.5%;
   margin-right: 2.5%;
   display: inline-block;
+  position: relative;
 }
 
 #posts-principais article .titulo {
   text-shadow: 1px 1px black;
+  position: absolute;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #f5f5dc70;
+  top: 20px;
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+#posts-principais article .titulo:hover {
+  top: 6px;
+  opacity: 1;
 }
 
 #posts-principais article img {
