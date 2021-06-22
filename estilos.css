@@ -225,6 +225,34 @@ footer .logo-rodape {
   margin-right: 2em;
 }
 
+/* --- Boos --- */
+
+.boo {
+  position: fixed;
+  opacity: 0.05;
+  transition: all 200ms ease;
+}
+
+.boo:hover{
+  opacity: 1;
+}
+
+#boo1 {
+  right: 0;
+  bottom: 10px;
+  transform: scaleX(-1);
+}
+
+#boo2 {
+  left: 0;
+  bottom: 50%;
+}
+
+#boo3 {
+  left: 30%;
+  bottom: 10px;
+}
+
 /* --- Vídeo --- */
 
 .backdrop {
